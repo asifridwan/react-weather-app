@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.app{
+    background: linear-gradient(135deg,#08c8f6,#4d5dfb);
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+.app.warm{
+    background: linear-gradient(-135deg,#fe5f75,#fc9842);
+}
+.search-box{
+    width: 400px;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.7);
+    transition: ease-out 0.2s;
+}
+.search-box:hover{
+    background: rgba(255,255,255,0.8);
+    transition: ease-in 0.2s;
+}
+.result-box{
+    margin-top: 120px;
+    height: 480px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: rgba(245,245,245,0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: ease-out 0.35s;
+}
+.result-box:hover{
+    background-color: rgba(245,245,245,0.2);
+    border-radius: 25px;
+    transform: scale(1.03,1.03);
+    transition: ease-in 0.3s;
+}
+.location{
+    font-size: 43px;
+}
+.date{
+    font-size: 23px;
+    font-weight: 200;
+    padding-top: 15px;
+}
+.temperature{
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 25px;
+}
+.weather{
+    font-size: 38px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+.author-name{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 200;
+}
+.author-name span{
+    font-weight: 400;
+}
