@@ -6,6 +6,8 @@ It uses Hooks and API calls to get the job done
 
 Just enter the location in the search box and hit enter to get the latest temperature and weather update !
 
+It changes the background color from Blue to Yellow if the temperature is in the warm range !
+
 Feel free to mess around with the source code to see how I made it !
 
 Check out the live version : https://asifridwan.github.io/react-weather-app/
