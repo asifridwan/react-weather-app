@@ -10,7 +10,7 @@ It changes the background color from Blue to Yellow if the temperature is in the
 
 Feel free to mess around with the source code to see how I made it !
 
-Check out the live version : https://asifridwan.github.io/react-weather-app/
+Check out the live version [over here](https://asifridwan.github.io/react-weather-app/)
 
 ![Alt Text](https://raw.githubusercontent.com/asifridwan/react-weather-app/main/screens/app_demo.gif)
 
